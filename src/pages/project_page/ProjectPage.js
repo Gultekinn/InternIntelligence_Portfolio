@@ -108,7 +108,7 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/Gultekinn/Jewellry"
+                                      "https://github.com/Gultekinn/E-commerce"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
