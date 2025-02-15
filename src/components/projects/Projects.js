@@ -35,7 +35,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
-                      Flexor
+                      Flixor
                     </h5>
                     <img src={nyc} alt={nyc} />
                     <div className="project--showcaseBtn">

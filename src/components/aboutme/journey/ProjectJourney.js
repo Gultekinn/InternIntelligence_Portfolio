@@ -42,7 +42,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Flexor Website
+          Flixor Website
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
