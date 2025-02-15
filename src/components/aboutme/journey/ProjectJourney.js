@@ -42,7 +42,7 @@ function ProjectJourney() {
           icon={<JavascriptIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-          Movie-pro- Website
+          Flexor Website
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -90,7 +90,7 @@ function ProjectJourney() {
           icon={<SiTypescript/>}
         >
           <h3 className="vertical-timeline-element-title">
-            E-commerce
+            Music Player
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -102,7 +102,7 @@ function ProjectJourney() {
           icon={<Javascript/>}
         >
           <h3 className="vertical-timeline-element-title">
-            Mexant
+            Movie ticket 
           </h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -150,7 +150,7 @@ function ProjectJourney() {
           icon={<CssIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-           Game-not
+           Calculator
           </h3>
         </VerticalTimelineElement>
         

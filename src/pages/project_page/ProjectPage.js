@@ -9,6 +9,8 @@ import hd from "../../images/hd.png";
 import eco from "../../images/eco.png";
 import pp from "../../images/book.png";
 import meal from "../../images/meal.png";
+import msc from "../../images/music.png";
+import clc from "../../images/calculator.png";
 
 import { FaCode } from "react-icons/fa";
 export default function ProjectPage() {
@@ -40,13 +42,13 @@ export default function ProjectPage() {
                             >
                               <div className="projectContent">
                                 <h5 id={"first"} style={{ color: "white" }}>
-                                  Movie-Pro
+                                  Flixor
                                 </h5>
                                 <img src={nyc} alt={nyc} />
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/Gultekinn/Movie-pro-"
+                                      "https://intern-intelligence-movieapps.vercel.app/"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -70,11 +72,12 @@ export default function ProjectPage() {
                                     fontWeight: 600,
                                   }}
                                 >
-                                  Our platform makes booking movie tickets quick
-                                  and easy, offering a wide selection of films
-                                  for every taste.Get your tickets in just a few
-                                  clicks and enjoy the latest blockbusters in
-                                  the comfort of your local cinema.
+                                  Flexor - A Modern TV Series Discovery
+                                  Platform. This is a modern platform designed
+                                  for TV series enthusiasts. Making it easy to
+                                  discover popular and trending series. This
+                                  project aims to provide a seamless and
+                                  user-friendly experience. 🚀
                                 </p>
                               </h6>
                               <div
@@ -85,8 +88,8 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                JavaScript,ReactJs, MaterialUi,NodeJs,
-                                ExpressJS,MongoDB
+                                Nextjs,TailwindCss, Typescript,Responsiv Tmdb
+                                api
                               </div>
                             </div>
                           </Fade>
@@ -147,8 +150,8 @@ export default function ProjectPage() {
                                   fontWeight: 600,
                                 }}
                               >
-                                NextJs,TailwindCss, TypeScript,Nodejs,
-                                ExpressJs,MongoDB
+                                NextJs,TailwindCss, TypeScript, Nodejs,
+                                ExpressJs,MongoDB,Redux
                               </div>
                             </div>
                           </Fade>
@@ -170,7 +173,7 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/Gultekinn/InternIntelligence_Portfolio"
+                                      "https://intern-intelligence-portfolio.vercel.app/"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -230,7 +233,7 @@ export default function ProjectPage() {
                                 <div className="project--showcaseBtn">
                                   <a
                                     href={
-                                      "https://github.com/Gultekinn/InternIntelligence_LockIn"
+                                      "https://intern-intelligence-lock-in-ix1t.vercel.app/"
                                     }
                                     target="_blank"
                                     rel="noreferrer"
@@ -274,6 +277,128 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "white" }}>
+                                  Music-Player
+                                </h5>
+                                <img src={msc} alt={msc} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={"https://music-player-g.vercel.app/"}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "rgba(0, 0, 0, 0.7)",
+                                    color: "white",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  A personal music player that brings together
+                                  my favorite melodies. Designed to play songs
+                                  that match my mood, easily discover my
+                                  favorite tracks, and enjoy the music.
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "rgba(0, 0, 0, 0.7)",
+                                  color: "white",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
+                        <Col md={3} className="col-sm-12 col-md-4">
+                          <Fade bottom>
+                            <div
+                              key={1}
+                              className="singleProject"
+                              style={{
+                                backgroundColor: "rgb(142 70 186 / 31%)",
+                              }}
+                            >
+                              <div className="projectContent">
+                                <h5 id={"first"} style={{ color: "white" }}>
+                                  Calculator
+                                </h5>
+                                <img src={clc} alt={clc} />
+                                <div className="project--showcaseBtn">
+                                  <a
+                                    href={
+                                      "https://code-alpha-calculator-chi.vercel.app/"
+                                    }
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className={"iconBtn"}
+                                    aria-labelledby={`code`}
+                                  >
+                                    <FaCode
+                                      id={`code`}
+                                      className={"icon"}
+                                      aria-label="Code"
+                                    />
+                                  </a>
+                                </div>
+                              </div>
+                              <h6>
+                                <p
+                                  className="project--desc"
+                                  style={{
+                                    background: "rgba(0, 0, 0, 0.7)",
+                                    color: "white",
+                                    fontWeight: 600,
+                                  }}
+                                >
+                                  It is a modern calculator designed to perform
+                                  basic and advanced mathematical operations
+                                  quickly and efficiently. With its clean
+                                  interface and user-friendly design, it allows
+                                  you to easily perform basic calculations.{" "}
+                                </p>
+                              </h6>
+                              <div
+                                className="project--lang"
+                                style={{
+                                  background: "rgba(0, 0, 0, 0.7)",
+                                  color: "white",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                HTML, CSS, JavaScript
+                              </div>
+                            </div>
+                          </Fade>
+                        </Col>
+
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
@@ -335,6 +460,7 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+
                         <Col md={3} className="col-sm-12 col-md-4">
                           <Fade bottom>
                             <div
@@ -396,6 +522,7 @@ export default function ProjectPage() {
                             </div>
                           </Fade>
                         </Col>
+
                         <p>will continue...</p>
                       </Row>
                     </Col>

@@ -31,18 +31,17 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                    
                   }}
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
-                    Movie-Pro
+                      Flexor
                     </h5>
                     <img src={nyc} alt={nyc} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/Gultekinn/Movie-pro-"
+                          "https://intern-intelligence-movieapps.vercel.app/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -58,33 +57,30 @@ export default function Projects() {
                     </div>
                   </div>
                   <h6>
-                  <p
-  className="project--desc"
-  style={{
-    background: "rgba(0, 0, 0, 0.7)", 
-    color: "white",                  
-    fontWeight: 600,    
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.7)",
+                        color: "white",
+                        fontWeight: 600,
                       }}
                     >
-                Our platform makes booking movie tickets
-                                  quick and easy, offering a wide selection of
-                                  films for every taste.Get your tickets in
-                                  just a few clicks and enjoy the latest
-                                  blockbusters in the comfort of your local
-                                  cinema.
+                      Flexor - A Modern TV Series Discovery Platform. This is a
+                      modern platform designed for TV series enthusiasts. Making
+                      it easy to discover popular and trending series. This
+                      project aims to provide a seamless and user-friendly
+                      experience. 🚀
                     </p>
                   </h6>
                   <div
                     className="project--lang"
                     style={{
-                   
-                        background: "rgba(0, 0, 0, 0.7)", 
-                        color: "white",                  
-                        fontWeight: 600,   
+                      background: "rgba(0, 0, 0, 0.7)",
+                      color: "white",
+                      fontWeight: 600,
                     }}
                   >
-                    JavaScript,ReactJs, MaterialUi,NodeJs,
-                    ExpressJS,MongoDB
+                    Nextjs,TailwindCss, Typescript,Responsiv Tmdb api
                   </div>
                 </div>
               </Fade>
@@ -96,19 +92,16 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                    
                   }}
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
-                    Jewellery
+                      Jewellery
                     </h5>
                     <img src={hd} alt={hd} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={
-                          "https://github.com/Gultekinn/E-commerce"
-                        }
+                        href={"https://github.com/Gultekinn/E-commerce"}
                         target="_blank"
                         rel="noreferrer"
                         className={"iconBtn"}
@@ -123,35 +116,30 @@ export default function Projects() {
                     </div>
                   </div>
                   <h6>
-                  <p
-  className="project--desc"
-  style={{
-    background: "rgba(0, 0, 0, 0.7)", 
-    color: "white",                  
-    fontWeight: 600,   
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.7)",
+                        color: "white",
+                        fontWeight: 600,
                       }}
                     >
-                   Jewellery Aid is a platform that allows users
-                                  to design unique and personalized jewelry.
-                                  This project offers a wide range of jewelry
-                                  options to cater to people of all ages and
-                                  preferences.
+                      Jewellery Aid is a platform that allows users to design
+                      unique and personalized jewelry. This project offers a
+                      wide range of jewelry options to cater to people of all
+                      ages and preferences.Responsiv design.
                     </p>
                   </h6>
                   <div
                     className="project--lang"
-                  
-                      style={{
-                        background: "rgba(0, 0, 0, 0.7)", 
-                        color: "white",                  
-                        fontWeight: 600,   
-
-
-                      
+                    style={{
+                      background: "rgba(0, 0, 0, 0.7)",
+                      color: "white",
+                      fontWeight: 600,
                     }}
                   >
-                     NextJs,TailwindCss, TypeScript, Nodejs,
-                     ExpressJs,MongoDB
+                    NextJs,TailwindCss, TypeScript, Nodejs,
+                    ExpressJs,MongoDB,Redux
                   </div>
                 </div>
               </Fade>
@@ -163,18 +151,17 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                   
                   }}
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "white" }}>
-                    Portfolio
+                      Portfolio
                     </h5>
                     <img src={ci} alt={ci} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/Gultekinn/InternIntelligence_Portfolio"
+                          "https://intern-intelligence-portfolio.vercel.app/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -190,30 +177,28 @@ export default function Projects() {
                     </div>
                   </div>
                   <h6>
-                  <p
-  className="project--desc"
-  style={{
-    background: "rgba(0, 0, 0, 0.7)", 
-    color: "white",                  
-    fontWeight: 600,   
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.7)",
+                        color: "white",
+                        fontWeight: 600,
                       }}
                     >
- Welcome to my personal portfolio. Explore my work, skills, 
- and achievements in a concise and visually appealing format. 
- Get a glimpse of my expertise and creativity.
-
+                      Welcome to my personal portfolio. Explore my work, skills,
+                      and achievements in a concise and visually appealing
+                      format. Get a glimpse of my expertise and creativity.
                     </p>
                   </h6>
                   <div
                     className="project--lang"
-                   
-                      style={{
-                        background: "rgba(0, 0, 0, 0.7)", 
-                        color: "white",                  
-                        fontWeight: 600,   
+                    style={{
+                      background: "rgba(0, 0, 0, 0.7)",
+                      color: "white",
+                      fontWeight: 600,
                     }}
                   >
-                  HTML, CSS, SCSS, React, JavaScript
+                    HTML, CSS, SCSS, React, JavaScript
                   </div>
                 </div>
               </Fade>
@@ -225,7 +210,6 @@ export default function Projects() {
                   className="singleProject"
                   style={{
                     backgroundColor: "rgb(142 70 186 / 31%)",
-                    
                   }}
                 >
                   <div className="projectContent">
@@ -235,7 +219,8 @@ export default function Projects() {
                     <img src={eco} alt={eco} />
                     <div className="project--showcaseBtn">
                       <a
-                        href={ "https://github.com/Gultekinn/InternIntelligence_LockIn"
+                        href={
+                          "https://intern-intelligence-lock-in-ix1t.vercel.app/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -251,29 +236,28 @@ export default function Projects() {
                     </div>
                   </div>
                   <h6>
-                  <p
-  className="project--desc"
-  style={{
-    background: "rgba(0, 0, 0, 0.7)", 
-    color: "white",                  
-    fontWeight: 600,   
+                    <p
+                      className="project--desc"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.7)",
+                        color: "white",
+                        fontWeight: 600,
                       }}
                     >
-                     Effortlessly access your account or sign up to get started with just a few clicks.
-Secure and easy login options ensure you can access your account anytime, anywhere.
+                      Effortlessly access your account or sign up to get started
+                      with just a few clicks. Secure and easy login options
+                      ensure you can access your account anytime, anywhere.
                     </p>
                   </h6>
                   <div
                     className="project--lang"
-                  
-                      style={{
-                        background: "rgba(0, 0, 0, 0.7)", 
-                        color: "white",                  
-                        fontWeight: 600,   
+                    style={{
+                      background: "rgba(0, 0, 0, 0.7)",
+                      color: "white",
+                      fontWeight: 600,
                     }}
                   >
-                      HTML, TailwindCss, React,  JavaScript,
-                      FireBase,Redux
+                    HTML, TailwindCss, React, JavaScript, FireBase,Redux
                   </div>
                 </div>
               </Fade>
