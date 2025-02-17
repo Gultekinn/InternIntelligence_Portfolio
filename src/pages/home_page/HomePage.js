@@ -77,16 +77,24 @@ export default function Home() {
   <div className="img-home-main">
     <Tilt>
       <Fade cascade>
-        <img
-          src="./profile.png"
-          alt="home pic"
-          className="img-fluid rounded-circle" 
-          style={{
-            width: '200px',  
-            height: '200px', 
-            objectFit: 'cover',  
-          }}
-        />
+      <img
+  src="./profile.png"
+  alt="home pic"
+  className="img-fluid rounded-circle"
+  style={{
+    width: "200px",
+    height: "200px",
+    objectFit: "cover",
+    pointerEvents: "none", // Tıklama etkisini kaldırır
+    userSelect: "none", // Seçimi engeller
+    WebkitUserSelect: "none",
+    MozUserSelect: "none",
+    msUserSelect: "none",
+  }}
+  onContextMenu={(e) => e.preventDefault()} // Sağ tıklamayı engelle
+  onTouchStart={(e) => e.preventDefault()} // Uzun basmayı engelle
+/>
+
       </Fade>
     </Tilt>
   </div>
